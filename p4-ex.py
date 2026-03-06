@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+ 
 def lab_clahe_bgr(bgr, clip_limit=2.0, tile_grid=8):
     lab = cv2.cvtColor(bgr, cv2.COLOR_BGR2LAB)
     L, a, b = cv2.split(lab)

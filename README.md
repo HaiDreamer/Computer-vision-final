@@ -1,7 +1,7 @@
 # Computer-vision-final
 Training model with multiple variant of processing images => Text recognition and localization
 
-# Dataset usage
+# Dataset usage 
 ICDAR 2015 Challenge 4 (Incidental Scene Text / IC15) is distributed via the Robust Reading Competition portal
 Official download page: https://rrc.cvc.uab.es/?ch=4&com=downloads 
     Task 4.4: End to End (2015 edition)	 (first and last cho train và test dataset)

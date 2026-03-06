@@ -100,7 +100,7 @@ def main():
     write_ids(splits_dir / "test_ids_200.txt", test_ids_200)
     write_ids(splits_dir / "test_ids_all.txt", sorted(test_ids_all))
 
-    # Materialize folders
+    # Materialize folders 
     def materialize_split(split_name: str, ids, img_dir: Path, gt_dir: Path):
         img_out = out_root / split_name / "images"
         gt_out  = out_root / split_name / "labels"

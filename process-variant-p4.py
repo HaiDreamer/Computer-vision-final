@@ -10,7 +10,7 @@ Usage: boosts contrast/visibility while reducing unwanted hue shifts
 For: better CNN model
     easier feature extraction in early CNN layers (cleaner edges)
     faster / more stable convergence by reducing illuminance variance
-TODO: check multiply variant 
+TODO: check multiply variant of this method processing
 '''
 import argparse
 import shutil
